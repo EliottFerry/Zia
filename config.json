@@ -1,0 +1,13 @@
+{
+	"Modules": {
+		"Path": "libraries",
+		"List": ["libhttpparser", "libheadermanager", "libresponsecreator", "libphpcgimanager"]
+	},
+	"Hosts": {
+		"Address": "8080"
+	},
+    "SSL": {
+		"Certificate": "ssl/cert.pem",
+		"Key": "ssl/key.pem"
+	}
+}
